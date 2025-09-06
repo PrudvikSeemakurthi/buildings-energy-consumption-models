@@ -7,15 +7,14 @@ This file contains the key visualizations used in our project to analyze and pre
 ## 1. Energy Consumption by Building Type
 This graph shows the average energy consumption across **Residential, Commercial, and Industrial** buildings. Industrial buildings use the most energy due to heavy machinery and large-scale operations.
 
-![Energy Consumption by Building Type](visuals/energy_by_building_type.png)
+<img width="380" height="236" alt="image" src="https://github.com/user-attachments/assets/9b262b1b-1c35-4dbb-9890-5ef5d0882144" />
 
 ---
 
 ## 2. Energy Consumption vs. Square Footage
 This scatter plot highlights the positive correlation between building size and energy usage. As **square footage increases**, energy consumption generally rises.
+
 <img width="653" height="406" alt="Screenshot 2025-09-06 at 4 04 04 PM" src="https://github.com/user-attachments/assets/86de2ecd-ce11-4fb2-82dc-8a8f5ce567b3" />
-
-
 
 
 ---
@@ -23,21 +22,23 @@ This scatter plot highlights the positive correlation between building size and 
 ## 3. Energy Consumption by Number of Occupants
 This bar chart illustrates how the number of occupants impacts energy consumption. Buildings with **81–100 occupants** consume the most energy on average.
 
-![Energy Consumption by Occupants](visuals/energy_by_occupants.png)
+<img width="405" height="251" alt="image" src="https://github.com/user-attachments/assets/c3223cd6-7112-4e55-97eb-fe55ac5e35c2" />
 
 ---
 
 ## 4. Energy Consumption vs. Number of Appliances
 This line plot shows that more appliances typically lead to higher energy usage. However, the effect also depends on **how frequently the appliances are used**.
 
-![Energy Consumption vs. Appliances](visuals/energy_vs_appliances.png)
+<img width="405" height="201" alt="image" src="https://github.com/user-attachments/assets/f4dcb9ba-83e5-4a6b-96f1-d296f1c2b86b" />
+
 
 ---
 
 ## 5. Energy Consumption across Temperature Ranges
 This box plot demonstrates that energy usage stays fairly consistent across most temperature ranges, but **spikes between 31–35°C** due to higher cooling demands.
 
-![Energy Consumption vs. Temperature](visuals/energy_vs_temperature.png)
+<img width="404" height="251" alt="image" src="https://github.com/user-attachments/assets/2c9d5eda-ccb2-450a-9fad-04e09b423f55" />
+
 
 ---
 
