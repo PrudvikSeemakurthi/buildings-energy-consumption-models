@@ -42,14 +42,32 @@ This box plot demonstrates that energy usage stays fairly consistent across most
 
 ---
 
-## 6. Feature Importance (Random Forest)
-This bar chart from the Random Forest model identifies which features contribute most to predicting energy consumption. **Square footage** is by far the most important predictor.
+# Machine Learning Models
 
-![Feature Importance](visuals/feature_importance.png)
+## Linear Regression Model
+The regression line shows how square footage alone predicts energy consumption.  
+- For every additional square foot, energy use increases by ~0.05 kWh.  
+- The residuals are fairly evenly distributed, showing a reasonable fit
 
----
+<img width="337" height="285" alt="image" src="https://github.com/user-attachments/assets/f1a81463-4211-4831-90a8-c535c7437b7a" />
 
-## 7. Model Comparison (R² Scores)
-This bar chart compares the performance of three models. Random Forest outperformed both Linear Regression and Decision Tree with an **R² score of 0.981**.
 
-![Model Comparison](visuals/model_comparison.png)
+<img width="246" height="147" alt="image" src="https://github.com/user-attachments/assets/9b48d3b5-6409-4c57-87ea-352e7e2788c0" />
+
+## Random Forest
+The Random Forest model highlights **square footage** as the most important predictor of energy consumption, far outweighing other features.  
+- **Number of Occupants** and **Building Type** follow as secondary factors.  
+- Features like **appliances used** and **average temperature** contribute but have smaller effects.  
+
+<img width="354" height="188" alt="image" src="https://github.com/user-attachments/assets/af3f7c0c-905f-4f4d-ad2f-799e2d078f5a" />
+
+## Decision Tree
+The Decision Tree model also identifies **square footage** as the dominant factor in predicting energy consumption.  
+- **Building type** (especially Industrial and Residential) plays a secondary role.  
+- **Number of Occupants** and **Appliances Used** contribute moderately.  
+- Environmental factors like **average temperature** and **day of week** have very limited impact.  
+
+<img width="329" height="186" alt="image" src="https://github.com/user-attachments/assets/a8178c37-a13d-4419-a785-4524336f8544" />
+
+
+
